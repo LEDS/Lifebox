@@ -1,0 +1,13 @@
+--INFORMAÇÕES SOBRE O TESTE--
+
+INÍCIO - 2016-07-28 19:36:45
+FINAL - 2016-07-28 19:37:38
+
+TEMPO DE DURAÇÃO: 0:00:52
+
+--LOG DO SOFTWARE--
+
+[19:36:45]Iniciando monitoramento...
+[19:36:45]Monitorando...
+[19:37:16]Backup salvo com sucesso!!!
+[19:37:38]Arquivo salvo com sucesso!!!
