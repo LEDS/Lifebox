@@ -21,6 +21,9 @@ branches:
 before_script:
   - export JAVA_HOME=/usr/lib/jvm/java-8-oracle
   
+install:
+  - pip install -r requirements.txt
+  
 script:
-- sonar-scanner -Dsonar.login=$SONAR_TOKEN 
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN 
  
