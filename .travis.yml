@@ -11,8 +11,8 @@ addons:
   
 env:
   global:
-  - secure: 1dsvLopQ6y/+EwsLyj3zF978RED1Nw1wzRuTJBUHQj576US6OyYOBt/R7xls/EE5lyuVaNEcsN1OcDNuE1THJIQiXSqn2byYgjlPkfVsWf8Dif8JsjZigtGpW3i7FL5l6YNOw4dgMide/9Qhny6pEcuwNpLhLDBWISAfYX2DfArfEAKZROp3roiDG1sf6GZX98BMH1MTvQU8+OkPoudxNZJZxF+XO3Anjd0kLFuwiSn4B56iwnAdiNn3P1j/S5clNSBpo37npr9C76ZDV0cYugxD+apQrm/rkfrRaQ7uByRGHwUrYdgnuI80WVLpj1AoxnoE7AdZo3dgZifhnrD/y9R2UOHzGK1tvLVnK+EvDVsTTmUry8gVgpANAVpQBmio6W9cHNmMcMD19oWGm2cpcf8WRz3dXZ73g5eUoSf4IcSTM3rGdNyVH9sEA25AwUU1KVdJLWmPRUOO5VQfrY1kMfFpSUsjcB25Mvyz3b3Runh14S0dJtDQTZ/KxxhD7toQ1ENrC+/PH/S3ELQxj5sNtpuN8rGdPa6WFCOYUWQK5oFUTz5jhxk1SMbRNWMwnAx+u1DThkAABfY3WlewtehDP/vKlaIfSif/vhFFtNRP0fPSxmJS4H022Xg2fXcV2shKoNz47xU6T8rHGUaHesRO6A7ZnWQ4OwNQ+qN6kPK7H+0=
-  
+   - secure: "vVSzQa1ygJ3gGfB6L1rR43wFWtrjBPWZYdiJetBjHtCQWEKPh7IAc4HK3HcFO1sbPV+poytVdhWY4YhYGquGmDgQl7zMVMoaXPvx8cN3GNzO6bOgTfw4CGmu1r12ZZQB4+FztK9qKH7UEz1xPAizJfKjhhruXFYy8BPyiptZu3zssTM3cexBfhdloeVlfh8rxWoIetVGMkE2k7+l4ioq+tjkmof8x6hN1LBto5kwiOCM4jXTse9OLN9NU9BtY+euz4P9cL9GorDJBzRtvVrHctXu8GTDf4AoXCP2iGgLOF0V5iVjRCNd69I5njG1093S/gEau6IllYie3h/o5mGyPEdxj0EViVslwDZrCDWDj3S01kc2ei+FX7xHZB6BPr2L92CKfwgw93jh+so2WglcROSrh6T2yPPimxUriCrFylZtT90JoeVTZ8rao9Z3IYQXNpUGGKLNslRRyxKTqJwxYbbfYB7L3T4uj0/mc4HZFQtj1sSXcp4t5rHQo+V+oWwexHN/8syM6WAogltOL8cOCXbjCiteYatVsefUAP7zo6qdbRmZkQzu4F5y2Z2keD+Vx/5P0k1/mdyqGeLBkv+MIR6i6dwuJi5Gq19pUm+Wno0RCm8Sl3NjKv+U1Zsex/WFAmC+/KtSNZm4VmHTC7cni63tPVh+Wg25m/QhJa3PNhA="
+
 branches:
   only:
   - master
@@ -22,7 +22,7 @@ before_script:
   - export JAVA_HOME=/usr/lib/jvm/java-8-oracle
   
 install:
-  - pip install -r requirements.txt
+  #- pip install -r requirements.txt
   
 script:
   - sonar-scanner -Dsonar.login=$SONAR_TOKEN 
